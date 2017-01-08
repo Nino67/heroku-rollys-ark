@@ -1,0 +1,67 @@
+/*----------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/
+/*---- start of animals.html specific styles ---------------------------------*/
+
+.imgBox {
+  margin: 3vw;
+}
+
+#image_01, #image_02, #image_03, #image_04,
+#image_05, #image_06, #image_07, #image_08 {
+  display: block;
+  max-height: 150px;
+  height: 150px;
+  max-width: 150px;
+  width: 150px;
+  margin: 1.5vw;
+  float: left;
+  border: 10px solid #474745;
+  box-shadow: 10px 10px 5px #000;
+}
+
+
+#mainBox {
+  margin-top: 30px;
+}
+
+#mainBox img:hover {
+  border: 3px solid #fff;
+}
+
+#animals-links-box h2 {
+  font-family: 'Abril Fatface';
+  text-align: center;
+  color: #E6A716;
+  font-size: 40px;
+  font-weight: bold;
+  text-shadow: 3px 3px 3px #000;
+  letter-spacing: 2px;
+  word-spacing: 8px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+#animals-links-box h2:hover {
+  color: #286472;
+}
+
+
+#animals-text-box {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+
+#animals-text-box h3 {
+  font-family: 'Days One', sans-serif;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  text-shadow: 5px 5px 10px #fff;
+  margin-top: 10px;
+  letter-spacing: 1px;
+}
+
+/*---- end of animals.html specific styles -----------------------------------*/
+/*----------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/

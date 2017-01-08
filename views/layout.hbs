@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <title>{{title}}</title>
+
+    <!-- Bootstrap style sheets-->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- animate.css style CDN links-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+    <!-- Font style CDN links-->
+    <link href='https://fonts.googleapis.com/css?family=Fontdiner+Swanky' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Didact+Gothic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Abril+Fatface' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Days+One' rel='stylesheet' type='text/css'>
+
+
+    <!-- Custom CSS files-->
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <link rel='stylesheet' href='/stylesheets/header_layout.css' />
+    <link rel='stylesheet' href='/stylesheets/footer_layout.css' />
+
+    <!-- Set Viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  </head>
+
+
+  <body>
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <!-- background video dispaly object -->
+    <div class="background-wrap">
+      <video id="video-bg-elem" preload="auto" autoplay="true" loop="loop" muted= "muted">
+        <source src="video/sky.mp4" type="video/mp4">
+          Video Not Supported
+      </video>
+    </div>
+    <!-- end of background vide dispaly object -->
+
+    <div class="container-fluid" id="homeInject">
+      <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse"
+            data-target="#mainNavBar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div class="navbar-brand" id="brand">ROLLY'S ARK</div>
+        </div>
+        <div class="collapse navbar-collapse" id="mainNavBar">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="\">Home</a></li>
+            <li><a href="\animals">Animal Pictures And Reserved Schedule</a></li>
+            <li><a href="\faqs">Faqs</a></li>
+            <li><a href="\contacts">Contact Us</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav><!-- end of <nav class="navbar navbar-inverse"> -->
+   </div><!-- end of <div class="container-fluid" id="homeInject"> -->
+
+    <div class="mainHeader">
+      <div class="row">
+        <div id= "pic1" class="col-xs-3 col-sm-2 col-md-2 col-lg-2" >
+          <img src="images\bulldog-mirror.png" id="bulldog-mirror"
+          alt="bulldog-mirror.png" class= "img-responsive" >
+        </div>
+        <div id = "titleBar" class="col-xs-6 col-sm-8 col-md-8 col-lg-8 " align="center" >
+          <h1 id="headerLine1">Rolly's Ark</h1>
+          <h3 id="headerLine2">Party Animal Rentals</h3>
+        </div>
+        <div id ="pic2" class="col-xs-3 col-sm-2 col-md-2 col-lg-2" >
+          <img src="images\bulldog.png" id= "bulldog"
+          alt="bulldog.png" class="img-responsive" >
+        </div>
+      </div>
+    </div> <!-- end of mainHeader class -->
+
+    {{{body}}}
+
+    <!-- start of page footer section -->
+    <div class="container-fluid" id="footerBar"></div>
+
+    <div class="container" id="indexContactInfo">
+      <div class="row">
+
+        <div class="col-lg-6">
+          <div id="footerBox1">
+            <h4>Call or email us today to book your unforgettable gift!</h4>
+            <h4>(999)999-9999</h4>
+            <a href="#"><h4>rollys-ark@email.com</h4></a>
+          </div>
+        </div>
+
+        <div class="col-lg-6">
+          <div id="footerBox2">
+            <h4>We deliver within the Niagara and Hamilton areas.</h4>
+            <h4>See our <span> <a href="\public\html\faqs.html">FAQS</a></span> page to answer your questions</h4>
+          </div>
+        </div>
+
+      </div> <!-- end of row -->
+    </div> <!-- end of container -->
+
+    <div id="footerId" class="container-fluid">
+      <footer>
+        <div>Copywrite &copy; 2016  Geatano Ricca.</div>
+        <div>All Rights Reserved.</div>
+      </footer>
+    </div>
+
+  </body>
+
+
+</html>

@@ -1,0 +1,76 @@
+
+<!-- Add fancyBox -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.css" type="text/css" media="screen" />
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.pack.js"></script>
+
+<!-- link in stylesheet -->
+<link rel='stylesheet' href='/stylesheets/animals_layout.css' />
+
+<div class="container-fluid" id= "mainBox">
+  <div class= "row">
+    <!-- start of links and text -->
+
+    <div class = "col-lg-4">
+      <div id= "animals-links-box">
+        <link><a href="/bulldog"><h2>Bulldog's Schedule</h2></a></link>
+        <link><a href="/gorilla"><h2>Gorilla's Schedule</h2></a></link>
+      </div>
+      <div id="animals-text-box">
+        <h3>Click on the above links to view the animals reserved schedule.</h3>
+        <h3>or</h3>
+        <h3>Click on any picture to view enlarged.</h3>
+      </div>
+    </div> <!-- end of class= "col-lg-4" -->
+
+    <div class = "col-lg-8">
+        <a class="fancybox" rel="group" href="images/image_lg_01.jpg">
+          <img src="images\image_01.jpg" alt="image_01" id="image_01" class="img-responsive">
+        </a>
+        <a class="fancybox" rel="group" href="images/image_lg_02.jpg">
+          <img src="images\image_02.jpg" alt="image_02" id="image_02" class="img-responsive">
+        </a>
+        <a class="fancybox" rel="group" href="images/image_lg_03.jpg">
+          <img src="images\image_03.jpg" alt="image_03" id="image_03" class="img-responsive">
+        </a>
+        <a class="fancybox" rel="group" href="images/image_lg_04.jpg">
+          <img src="images\image_04.jpg" alt="image_04" id="image_04" class="img-responsive">
+        </a>
+        <a class="fancybox" rel="group" href="images/image_lg_05.jpg">
+          <img src="images\image_05.jpg" alt="image_05" id="image_05" class="img-responsive">
+        </a>
+        <a class="fancybox" rel="group" href="images/image_lg_06.jpg">
+          <img src="images\image_06.jpg" alt="image_06" id="image_06" class="img-responsive">
+        </a>
+        <a class="fancybox" rel="group" href="images/image_lg_07.jpg">
+          <img src="images\image_07.jpg" alt="image_07" id="image_07" class="img-responsive">
+        </a>
+        <a class="fancybox" rel="group" href="images/image_lg_08.jpg">
+          <img src="images\image_08.jpg" alt="image_08" id="image_08" class="img-responsive">
+        </a>
+    </div> <!-- end of class= "col-lg-8" -->
+  </div> <!-- end of <div> class= "row" -->
+</div> <!-- end of <div> id= "mainBox" -->
+
+<script>
+  $( document ).ready(function() {
+
+    // add the "animateCss" to JQuery to extend it
+    $.fn.extend({
+        animateCss: function (animationName) {
+            var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
+            this.addClass('animated ' + animationName).one(animationEnd, function() {
+                $(this).removeClass('animated ' + animationName);
+            });
+        }
+    });
+
+    //start the show
+    $('#titleBar').animateCss('zoomIn');﻿
+    $('#pic1').animateCss('bounceInLeft');﻿
+    $('#pic2').animateCss('bounceInLeft');﻿
+    $('#mainBox').animateCss('bounceInDown');﻿
+
+    $(".fancybox").fancybox();
+
+  });
+</script>

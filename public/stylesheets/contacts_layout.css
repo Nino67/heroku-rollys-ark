@@ -1,0 +1,52 @@
+/*----------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/
+/*---------- start of contacts_layout.html specific styles -------------------*/
+
+#contactUsInfo {
+    text-align: center;
+}
+
+
+#contactUsInfo img {
+  display: block;
+  padding: 0px;
+  background: #000;
+  border: 3px solid #000;
+  box-shadow: 10px 10px 25px #000;
+  margin-top: 20px;
+}
+
+
+
+#indexContactInfo {
+  text-align: center;
+}
+
+
+#contactUs {
+  margin-top: 10px;
+}
+
+#contactUs h1 {
+  font-family: 'Abril Fatface';
+  font-size: 50px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #E13030;
+  text-shadow: 3px 3px 6px #000;
+  margin-bottom: 20px;
+}
+
+#contactUs h3 {
+  padding: 5px;
+  font-family: 'Days One', sans-serif;
+  font-size: 28px;
+  text-shadow: 3px 3px 5px #FFF;
+}
+
+
+
+
+/*------------ end of contacts_layout.html specific styles -------------------*/
+/*----------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/

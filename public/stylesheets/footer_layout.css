@@ -1,0 +1,60 @@
+
+/*-----------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/
+/*---- start of footer class container style --------------------------------------------------------------*/
+/*
+font-style CDN's added in
+font-family: 'Didact Gothic', sans-serif; in use
+font-family: 'Abril Fatface'; in use
+font-family: 'Days One', sans-serif;
+*/
+
+#footerBar {
+  background-color: #23219D;
+  height: 30px;
+  margin-top: 25px;
+  margin-bottom: 0px;
+}
+
+
+#footerBox2 {
+  margin-top: 10px;
+}
+
+
+#footerBox1 {
+  margin-top: 10px;
+}
+
+#footerBox1 h4 {
+  font-family: 'Days One', sans-serif;
+  font-size: 20px;
+  padding: 3px;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 3px #FFF;
+}
+
+
+#footerBox2 h4 {
+  font-family: 'Days One', sans-serif;
+  font-size: 20px;
+  padding: 5px;
+  letter-spacing: 1px;
+  text-shadow: 2px 2px 3px #FFF;
+}
+
+
+#footerId {
+  text-align: left;
+  background-color: #13219D;
+  color: #F7D70A;
+  margin-top: 10px;
+  padding: 25px;
+}
+
+#brand {
+  color: #D50202;
+}
+/*----------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/

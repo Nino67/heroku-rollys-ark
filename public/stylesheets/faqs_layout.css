@@ -1,0 +1,84 @@
+/*-----------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/
+/*--------------- start of faqs.html specific styles -------------------*/
+
+#faqsInfo img {
+  border: 3px solid #000;
+  box-shadow: 10px 10px 25px #000;
+}
+
+
+#faqsTitle h1 {
+  font-family: 'Abril Fatface';
+  font-size: 55px;
+  text-shadow: 3px 3px 5px #000;
+  color: #E13030;
+  margin-top: 20px;
+}
+
+
+.paraLine1 {
+  font-family: 'Days One', sans-serif;
+  text-shadow: 3px 3px 5px #FFF;
+  font-size: 22px;
+  font-weight: bold;
+  margin-left: 25px;
+}
+
+
+.paraHeaders{
+  font-family: 'Days One', sans-serif;
+  font-weight: bold;
+  text-shadow: 3px 3px 5px #FFF;
+  font-size: 26px;
+  margin-top: 25px;
+}
+
+
+#faqsPagePic {
+  margin-top: 70px;
+  margin-left: 3.25vw;
+  margin-right: auto;
+}
+
+.faqCallUs {
+  margin-top: 35px;
+}
+
+
+.faqCallUs {
+  text-align: center;
+}
+
+
+#hiliteOrder {
+  color: #E13030;
+  margin-top: 25px;
+  text-shadow: 3px 3px 5px #000;
+}
+
+
+.faqCallUs h2 {
+  font-family: 'Abril Fatface';
+  font-size: 40px;
+  text-shadow: 3px 3px 5px #000;
+}
+
+.faqCallUs h3 {
+  font-family: 'Days One', sans-serif;
+  font-size: 25px;
+  margin-top:10px;
+  text-shadow: 3px 3px 5px #FFF;
+}
+
+.faqCallUs h4 {
+  font-family: 'Days One', sans-serif;
+  font-size: 25px;
+  text-shadow: 3px 3px 5px #FFF;
+}
+
+
+
+/*---------------- end of faqs.html specific styles --------------------*/
+/*----------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------*/

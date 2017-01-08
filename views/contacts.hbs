@@ -1,0 +1,63 @@
+<!-- link in stylesheet -->
+<link rel='stylesheet' href='/stylesheets/contacts_layout.css' />
+
+<div class="container" id="contactUsInfo">
+  <div class="row">
+
+    <div class="col-lg-6">
+      <div id= "contactUs">
+        <h1>Contact Us</h1>
+        <h3>We deliver throughout the Niagara region and Hamilton areas of Ontario.</h3>
+        <h3>Contact us by phone to book your animal today.</h3>
+        <h3>(905) 999-9999</h3>
+        <a href="#"><h3>rollys-ark@email.com</h3></a>
+      </div>
+    </div>
+
+    <div class="col-lg-4 col-lg-offset-1">
+      <img src="\images\image_07.jpg" alt="image_07.jpg" id="dog2Pic" class="img-responsive">
+    </div>
+  </div> <!-- end of row -->
+</div> <!-- end of container -->
+
+
+<SCRIPT LANGUAGE="JavaScript">
+function openindex()
+{
+  OpenWindow=window.open("", "newwin", "height=250, width=250,toolbar=no,scrollbars="+scroll+",menubar=no");
+  OpenWindow.document.write("<TITLE>Title Goes Here</TITLE>")
+  OpenWindow.document.write("<BODY BGCOLOR=pink>")
+  OpenWindow.document.write("<h1>Hello!</h1>")
+  OpenWindow.document.write("This text will appear in the window!")
+  OpenWindow.document.write("</BODY>")
+  OpenWindow.document.write("</HTML>")
+
+  OpenWindow.document.close()
+  self.name="main"
+}
+</SCRIPT>
+
+
+<script>
+  $( document ).ready(function() {
+
+    // add the "animateCss" to JQuery to extend it
+    $.fn.extend({
+        animateCss: function (animationName) {
+            var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
+            this.addClass('animated ' + animationName).one(animationEnd, function() {
+                $(this).removeClass('animated ' + animationName);
+            });
+        }
+    });
+
+    //start the show
+    $('#titleBar').animateCss('zoomInLeft');﻿
+    $('#pic1').animateCss('bounceInLeft');﻿
+    $('#pic2').animateCss('bounceInLeft');﻿
+    $('#contactUsInfo').animateCss('lightSpeedIn');﻿
+
+    openindex();
+
+  });
+</script>

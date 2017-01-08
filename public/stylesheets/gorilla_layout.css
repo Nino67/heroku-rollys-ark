@@ -1,0 +1,33 @@
+/*--------------- start of gorilla specific styles ---------------------------*/
+/*----------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/
+#calendar {
+  width: auto;
+  margin: 2vw;
+  background-color: #fff;
+  padding: 20px;
+  border: 3px solid #000;
+  box-shadow: 25px 25px 50px #000;
+}
+
+
+#reservedTitle {
+  color: #892611;
+}
+
+
+#gorillaScheduleTitle h1{
+  color: #E13030;
+  margin-top: 3vw;
+  font-family: 'Abril Fatface';
+  font-size: 50px;
+  letter-spacing: 3px;
+  word-spacing: 10px;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 3px 3px 5px #000;
+}
+
+/*--------------- end of gorilla specific styles -----------------------------*/
+/*----------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/

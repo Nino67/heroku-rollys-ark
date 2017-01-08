@@ -1,0 +1,60 @@
+<!-- link in stylesheet -->
+<link rel='stylesheet' href='/stylesheets/faqs_layout.css' />
+
+<div class="container" id="faqsInfo">
+   <div class="row">
+     <div class="col-lg-6">
+
+       <div id="faqsTitle">
+         <h1>FAQS</h1>
+       </div>
+       <h3 class= "paraHeaders">When do you deliver?</h3>
+       <p class="paraLine1">Our main delivery hours are between midnight and 6 am but if needed other arrangements can be made.</p>
+       <h3 class= "paraHeaders">When do you pick the animal up?</h3>
+       <p class="paraLine1">Any time after 10 pm someone will come by to pick the animal up.</p>
+       <h3 class= "paraHeaders">Should I pre-book an animal?</h3>
+       <p class="paraLine1">Yes, even though we have several of each animal available they do book fast. We recommend
+          that you book 2 weeks in advance to ensure the prop of your choice.
+       </p>
+       <h3 class= "paraHeaders">Can I rent an animal last minute?</h3>
+       <p class="paraLine1">Sure, give us a call we will let you know if there is anything available. It doesn't hurt to try!</p>
+     </div>
+
+     <div class="col-lg-4 col-lg-offset-1" >
+       <div id="faqsPagePic">
+         <img src="\images\image_06.jpg" alt="image_06.jpg" id="contactUsDogPic" class="img-responsive">
+       </div>
+       <div class="faqCallUs">
+         <h4>Still have questions? Please contact us!</h4>
+         <h4>We look forward to hearing from you.</h4>
+         <div id= "hiliteOrder">
+           <h2>Don't delay order your's today!</h2>
+         </div>
+         <h3>(905) 999-9999</h3>
+         <a href="https://www.google.ca"><h3>rollys-ark@email.com</h3></a>
+       </div>
+     </div>
+   </div> <!-- end of row -->
+ </div> <!-- end of container -->
+
+ <script>
+  $( document ).ready(function() {
+
+    // add the "animateCss" to JQuery to extend it
+    $.fn.extend({
+        animateCss: function (animationName) {
+            var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
+            this.addClass('animated ' + animationName).one(animationEnd, function() {
+                $(this).removeClass('animated ' + animationName);
+            });
+        }
+    });
+
+    //start the show
+    $('#titleBar').animateCss('rollIn');﻿
+    $('#pic1').animateCss('bounceInLeft');﻿
+    $('#pic2').animateCss('bounceInLeft');﻿
+    $('#faqsInfo').animateCss('lightSpeedIn');﻿
+
+  });
+</script>

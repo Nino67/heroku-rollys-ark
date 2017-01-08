@@ -1,0 +1,47 @@
+
+/*-----------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/
+/*--------------- start of main header bar specific styles --------------*/
+
+#homeInject {
+margin: 35px;
+}
+
+#titleBar {
+  background-color: #23219D;
+  color: #F7D70A;
+  padding: 15px;
+  box-shadow: 15px 15px 30px #000;
+}
+
+#bulldog, #bulldog-mirror{
+  height: 15vw;
+  max-height: 15vw;
+  border: 2px solid #000;
+  display: block;
+  box-shadow: 15px 15px 30px #000;
+
+}
+
+
+#headerLine1 {
+  font-family: 'Fontdiner Swanky', cursive;
+  font-size: 8vw;
+}
+
+
+#headerLine2 {
+  font-family: 'Fontdiner Swanky', cursive;
+  margin-top: 2vw;
+  font-size: 4.5vw;
+}
+
+
+.mainHeader {
+  margin: 0px;
+  padding: 0px;
+}
+
+/*--------------- end of main header bar specific styles --------------*/
+/*-----------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------*/

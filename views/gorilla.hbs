@@ -1,0 +1,82 @@
+<!-- link in stylesheet -->
+<link rel='stylesheet' href='https://fullcalendar.io/js/fullcalendar-3.1.0/fullcalendar.css' />
+<link rel='stylesheet' href='/stylesheets/gorilla_layout.css' />
+
+<script src='//cdnjs.cloudflare.com/ajax/libs/moment.js/2.9.0/moment.min.js' ></script>
+<script src='https://fullcalendar.io/js/fullcalendar-3.1.0/fullcalendar.min.js' ></script>
+
+<div id= "gorillaScheduleTitle" >
+  <h1>Gorilla Reserved Schedule</h1>
+</div>
+
+<div class="dogCalendar" >
+  <div class="row" >
+    <div class="col-md-12" >
+      <div id='calendar' ></div>
+    </div>
+  </div>
+</div>
+
+
+<script>
+$(document).ready(function() {
+
+  // add the "animateCss" to JQuery to extend it
+  $.fn.extend({
+      animateCss: function (animationName) {
+          var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
+          this.addClass('animated ' + animationName).one(animationEnd, function() {
+              $(this).removeClass('animated ' + animationName);
+          });
+      }
+  });
+
+
+  $('#calendar').fullCalendar({
+    // put your options and callbacks here
+    events: [
+        {
+            title  : 'Gorilla Reserved',
+            start  : '2016-12-31'
+        },
+
+        {
+            title  : 'Gorilla Reserved',
+            start  : '2017-01-05'
+        },
+        {
+            title  : 'Gorilla Reserved',
+            start  : '2017-01-09'
+        },
+        {
+            title  : 'Gorilla Reserved',
+            start  : '2017-01-15'
+        },
+        {
+            title  : 'Gorilla Reserved',
+            start  : '2017-01-18'
+        },
+        {
+            title  : 'Gorilla Reserved',
+            start  : '2017-01-19'
+        },
+        {
+            title  : 'Gorilla Reserved',
+            start  : '2017-01-27'
+        },
+        {
+            title  : 'Gorilla Reserved',
+            start  : '2017-01-30'
+        },
+
+      ]
+  });
+
+
+  //start the show
+  $('#titleBar').animateCss('lightSpeedIn');﻿
+  $('#pic1').animateCss('bounceInLeft');﻿
+  $('#pic2').animateCss('bounceInLeft');﻿
+
+  });
+</script>
